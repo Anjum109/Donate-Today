@@ -130,6 +130,26 @@ span {
     background-color: #f5ca7c42;
 }
 
+.flood-affected-people-images h1 {
+    text-align: center;
+    font-size: 57px;
+    font-family: system-ui;
+}
+
+.flood-images {
+    display: flex;
+    height: 226px;
+    padding: 20px 189px;
+}
+
+#fisrt-image {
+    margin-right: 10px;
+}
+
+#second-image {
+    margin-right: 10px;
+}
+
 .email-set {
     display: flex;
     width: 60%;
