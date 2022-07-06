@@ -28,13 +28,21 @@ body {
     padding-bottom: 10px;
 }
 
-.link-button {
+button {
     text-decoration: none;
     background-color: rgba(220, 39, 7, 0.696);
     padding: 15px 40px;
     color: white;
     font-weight: 700;
     border-radius: 10px;
+    border-color: rgba(220, 39, 7, 0.696);
+    border: none;
+    font-size: 23px;
+}
+
+.donating {
+    text-align: center;
+    margin-top: 150px;
 }
 
 .donating-Money {
@@ -44,29 +52,66 @@ body {
 }
 
 .donating h1 {
-    font-size: 50px;
+    font-size: 57px;
+    font-family: system-ui;
 }
 
 .donating p {
     color: gray;
+    font-size: x-large;
 }
 
 .money {
     display: flex;
-    margin-left: 20%;
+    margin-left: 25%;
 }
 
 span {
     margin-top: 30px;
-    padding: 50px;
+    padding: 47px;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 29px;
     color: rgb(89, 85, 85);
-
 }
 
 #border-money {
     border: 2px solid tomato;
     color: tomato;
     background-color: rgba(232, 183, 174, 0.621);
+}
+
+#second-button {
+    padding: 15px 40px;
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+
+.optional-amount {
+    padding-bottom: 30px;
+    display: inline-grid;
+}
+
+.textarea {
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+    border-bottom: groove;
+    font-size: 20px;
+    margin-top: 70px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about-donation {
+    display: flex;
+    margin: 89px 173px;
+    padding: 37px;
+}
+
+.donation-discuss {
+    margin-right: 20px;
+    padding: 56px 64px;
+    border: 1px solid #f3ecf1;
+    background-color: #f3ecf1;
 }
