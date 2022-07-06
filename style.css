@@ -7,7 +7,6 @@ body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(images/donation8.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.9;
     height: 774px;
 }
 
@@ -197,6 +196,7 @@ span {
 .footer h2 {
     font-family: 'Abril Fatface', cursive;
     font-size: 50px;
+    color: #cf4141;
 }
 
 .footer p {
