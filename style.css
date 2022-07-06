@@ -12,20 +12,20 @@ body {
 }
 
 .donation-cover-item {
-    text-align: center;
-    padding: 10% 29%;
-    width: 823px;
+    padding: 6% 29%;
     color: white;
+    text-align: center;
 }
 
 .donation-cover-item h1 {
     font-weight: 700;
-    font-size: 70px;
+    font-size: 75px;
     font-family: 'Kantumruy Pro', sans-serif;
 }
 
 .donation-cover-item p {
     padding-bottom: 10px;
+    font-size: x-large;
 }
 
 button {
@@ -59,11 +59,14 @@ button {
 .donating p {
     color: gray;
     font-size: x-large;
+    margin-left: 600px;
+    margin-right: 600px;
 }
 
 .money {
     display: flex;
     margin-left: 25%;
+    margin-right: 25%;
 }
 
 span {
@@ -105,13 +108,16 @@ span {
 
 .about-donation {
     display: flex;
-    margin: 89px 173px;
-    padding: 37px;
+    margin: 103px 454px;
+    padding: 11px;
+    width: 1641px;
+    height: 471px;
+    text-align: revert-layer;
 }
 
 .donation-discuss {
     margin-right: 20px;
-    padding: 48px 64px;
+    padding: 86px 109px;
     border: 1px solid #f3ecf1;
     background-color: #f3ecf1;
 }
