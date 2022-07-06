@@ -1,0 +1,72 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.donation-Cover {
+    margin: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(images/donation8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    height: 774px;
+}
+
+.donation-cover-item {
+    text-align: center;
+    padding: 10% 29%;
+    width: 823px;
+    color: white;
+}
+
+.donation-cover-item h1 {
+    font-weight: 700;
+    font-size: 70px;
+    font-family: 'Kantumruy Pro', sans-serif;
+}
+
+.donation-cover-item p {
+    padding-bottom: 10px;
+}
+
+.link-button {
+    text-decoration: none;
+    background-color: rgba(220, 39, 7, 0.696);
+    padding: 15px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.donating-Money {
+    margin-top: 100px;
+    text-align: center;
+    height: 500px;
+}
+
+.donating h1 {
+    font-size: 50px;
+}
+
+.donating p {
+    color: gray;
+}
+
+.money {
+    display: flex;
+    margin-left: 20%;
+}
+
+span {
+    margin-top: 30px;
+    padding: 50px;
+    font-weight: 700;
+    font-size: 40px;
+    color: rgb(89, 85, 85);
+
+}
+
+#border-money {
+    border: 2px solid tomato;
+    color: tomato;
+    background-color: rgba(232, 183, 174, 0.621);
+}
